@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7129036491369033273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122928774457606178}
+  - component: {fileID: 7246832024766036249}
+  m_Layer: 0
+  m_Name: Pregunta1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122928774457606178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7129036491369033273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.54540557, y: -0.23888789, z: 62.471825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7246832024766036249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7129036491369033273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0411cd0336e3a6745b80e71d19a32e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "\xBFQu\xE9 es un virus?"
+  options:
+  - text: "Los virus son part\xEDculas infecciosas de tama\xF1o \u201Cgrande\u201D
+      que sobreviven mucho tiempo fuera de c\xE9lulas vivas "
+    correct: 0
+  - text: "Los virus no son part\xEDculas infecciosas "
+    correct: 0
+  - text: "Los virus son part\xEDculas infecciosas de tama\xF1o \xEDnfimo que sobreviven
+      muy poco tiempo fuera de c\xE9lulas vivas "
+    correct: 1
+  - text: "Los virus son part\xEDculas infecciosas que solo afecta a los animales
+      y muy rara vez a las personas "
+    correct: 0
